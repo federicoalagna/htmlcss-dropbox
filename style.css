@@ -5,42 +5,48 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-ul {
+/* CONTAINER */
+.container-header {
+  justify-content: space-between;
   display: flex;
   align-items: center;
 }
 
-li {
-  list-style-type: none;
-  font-size: x-small;
-}
-
-.container-header {
-  justify-content: space-between;
-  display: flex;
-}
-
-.left {
-  justify-content: left;
-}
-.right {
-  justify-content: right;
-}
 .container-main {
   background-color: rgb(145, 183, 203);
   height: 500px;
-  padding: 50px 100px 50px 100px;
+  padding: 50px 300px 50px 300px;
+  margin: auto 0;
 }
 
+.container-central {
+  height: 1800px;
+  width: 70%;
+
+  margin: 0 auto;
+}
+
+.container-plans {
+  height: 1800px;
+  width: 70%;
+
+  margin: 0 auto;
+}
+/* FINE CONTAINER */
+
+/* TITOLI */
 .title {
   font-size: 50px;
   font-weight: 900;
+  padding-bottom: 30px;
 }
 
 .subtitle {
   font-size: 30px;
   font-weight: 400;
 }
+
+/* FINE TITOLI */
 
 .row {
   display: flex;
@@ -52,32 +58,65 @@ li {
   width: 550px;
   display: inline-block;
 }
-
+/* COLONNE */
 .col-25 {
-  background-color: brown;
   width: 25%;
   text-align: center;
 }
-
-.col-100 {
-  width: 100%;
+.col-35 {
+  width: 35%;
   text-align: center;
 }
-.col-40 {
-  height: 280px;
-  background-color: rgb(58, 102, 197);
-  width: 40%;
+
+.col-33 {
+  text-align: center;
+  border: 1px solid black;
+  width: calc(100% / 3);
 }
 
 .col-50 {
   height: 280px;
-  background-color: rgb(58, 102, 197);
+
   width: 50%;
 }
+
 .col-60 {
   height: 280px;
-  background-color: rgb(58, 102, 197);
+
   width: 60%;
+}
+
+.col-100 {
+  width: 100%;
+  text-align: left;
+  border: 1px solid black;
+}
+.col-40 {
+  height: 280px;
+
+  width: 40%;
+}
+
+/* FINE COLONNE */
+
+/* UTILITY */
+ul {
+  display: flex;
+  align-items: center;
+}
+
+li {
+  list-style-type: none;
+  font-size: smaller;
+  padding: 10px;
+  color: rgb(39, 39, 39);
+}
+
+.left {
+  justify-content: left;
+}
+.right {
+  justify-content: right;
 }
 
 .jumbo {
@@ -85,4 +124,27 @@ li {
   display: inline-block;
 }
 
-/* UTILITY */
+button {
+  background-color: rgb(43, 105, 248);
+  color: white;
+  font-size: smaller;
+  padding: 3px 5px;
+}
+
+.content {
+}
+
+.height-50 {
+  height: 50px;
+}
+.height-200 {
+  height: 200px;
+}
+
+.height-500 {
+  height: 500px;
+}
+
+.margin-100 {
+  margin-top: 100px;
+}
