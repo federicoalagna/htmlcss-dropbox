@@ -28,7 +28,7 @@
 
 .container-plans {
   height: 1800px;
-  width: 70%;
+  width: 50%;
 
   margin: 0 auto;
 }
@@ -51,7 +51,6 @@
 .row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 .jumbo {
@@ -69,8 +68,6 @@
 }
 
 .col-33 {
-  text-align: center;
-
   width: calc(100% / 3);
 }
 
@@ -145,6 +142,10 @@ button {
   height: 500px;
 }
 
+.margin-10 {
+  margin-top: 10px;
+}
+
 .margin-45 {
   margin-top: 45px;
 }
@@ -157,12 +158,21 @@ button {
   margin-top: 200px;
 }
 
-.min-eight {
-  min-height: 1500px;
+.min-height {
+  min-height: 700px;
 }
 
-.border {
-  border: 1px solid black;
+.border-custom {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.border-custom2 {
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
 }
 
 .partner {
@@ -175,6 +185,7 @@ button {
   border: none;
   margin-top: 20px;
   margin-bottom: 20px;
+  width: 200px;
 }
 
 .font-size-small {
@@ -183,4 +194,61 @@ button {
 
 .arrow {
   font-size: 40px;
+}
+
+span {
+  font-size: smaller;
+}
+
+.margin-left {
+  margin-left: 10px;
+}
+
+.vertical-align {
+  vertical-align: middle;
+}
+
+.align-center {
+  text-align: center;
+  align-items: center;
+}
+
+.line-height {
+  line-height: 3;
+}
+
+.justify-left {
+  justify-content: left;
+}
+
+.py-5 {
+  padding: 25px;
+}
+
+.py-top {
+  padding-top: 25px;
+}
+.py-top15 {
+  padding-top: 15px;
+}
+
+h6 {
+  padding: 10px 0px;
+}
+
+.font-style {
+  color: grey;
+  font-style: oblique;
+}
+
+.font-style2 {
+  color: rgb(82, 79, 79);
+}
+
+.width20 {
+  width: 20%;
+}
+
+.check {
+  color: blue;
 }
