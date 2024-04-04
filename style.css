@@ -14,20 +14,18 @@
 
 .container-main {
   background-color: #b4d0e7;
-  height: 500px;
+
   padding: 50px 300px 50px 300px;
   margin: auto 0;
 }
 
 .container-central {
-  height: 1800px;
   width: 70%;
 
   margin: 0 auto;
 }
 
 .container-plans {
-  height: 1800px;
   width: 50%;
 
   margin: 0 auto;
@@ -72,14 +70,10 @@
 }
 
 .col-50 {
-  height: 280px;
-
   width: 50%;
 }
 
 .col-60 {
-  height: 280px;
-
   width: 60%;
 }
 
@@ -88,8 +82,6 @@
   text-align: left;
 }
 .col-40 {
-  height: 280px;
-
   width: 40%;
 }
 
@@ -163,21 +155,25 @@ button {
 }
 
 .border-custom {
-  border-top: 1px solid black;
-  border-left: 1px solid black;
-  border-bottom: 1px solid black;
+  border-top: 1px solid rgb(91, 91, 91);
+  border-left: 1px solid rgb(91, 91, 91);
+  border-bottom: 1px solid rgb(91, 91, 91);
 }
 
 .border-custom2 {
-  border-right: 1px solid black;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  border-left: 1px solid black;
+  border-right: 1px solid rgb(91, 91, 91);
+  border-top: 1px solid rgb(91, 91, 91);
+  border-bottom: 1px solid rgb(91, 91, 91);
+  border-left: 1px solid rgb(91, 91, 91);
+  border-collapse: collapse;
 }
 
+.border {
+  border: 1px solid rgb(91, 91, 91);
+}
 .partner {
   display: inline-block;
-  width: 70%;
+  width: 100%;
 }
 
 .trial {
@@ -225,9 +221,32 @@ span {
   padding: 25px;
 }
 
+.py-top-left {
+  padding: 25px 25px 0px 25px;
+}
+
+.py-left {
+  padding: 0px 25px;
+}
+
 .py-top {
   padding-top: 25px;
 }
+
+.py-bottom {
+  padding-bottom: 25px;
+}
+
+.py-top-right {
+  padding-top: 25px;
+  padding-right: 25px;
+}
+
+.py-top-left {
+  padding-top: 25px;
+  padding-left: 25px;
+}
+
 .py-top15 {
   padding-top: 15px;
 }
@@ -248,7 +267,44 @@ h6 {
 .width20 {
   width: 20%;
 }
+.width70 {
+  width: 70%;
+}
 
 .check {
   color: blue;
+}
+
+.border-collapse {
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+}
+
+.btn2 {
+  padding: 10px;
+  border: none;
+
+  width: 200px;
+}
+
+.btn3 {
+  padding: 10px;
+  border: 1px solid gray;
+  background-color: white;
+  margin-top: 10px;
+  color: gray;
+}
+
+img {
+  width: 100%;
+}
+
+h2 {
+  font-size: 30px;
 }
