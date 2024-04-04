@@ -386,3 +386,26 @@ h2 {
 .bg-darkwhite {
   background-color: #f5f5f5;
 }
+
+.bordercolor {
+  border: 10px solid #d1e9cd;
+}
+
+.relative {
+  position: relative;
+}
+.position-absolute-center {
+  position: absolute;
+}
+
+.width30 {
+  width: 30%;
+}
+
+.btn4 {
+  padding: 10px;
+
+  background-color: white;
+  margin-top: 10px;
+  color: rgb(70, 70, 70);
+}
