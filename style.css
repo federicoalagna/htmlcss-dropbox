@@ -424,6 +424,9 @@ h2 {
 .width30 {
   width: 30%;
 }
+.width10 {
+  width: 10%;
+}
 
 .btn4 {
   padding: 10px;
@@ -475,4 +478,8 @@ footer {
 
 .color-white {
   color: white;
+}
+
+.color-grey {
+  color: rgb(155, 155, 155);
 }
